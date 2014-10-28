@@ -1,12 +1,12 @@
 <% def env(a, b); e = ENV["obtvse_#{a}"]; e ? e : b; end %>
 
-title: <%= env :title,     'Blog Title' %>
-domain: <%= env :domain,   'http://www.example.com' %>
-name:    <%= env :name,    'Full Name' %>
-twitter: <%= env :twitter, 'handle' %>
-github:  <%= env :github,  'username'  %>
-email:   <%= env :email,   'email@example.com'  %>
-about:   <%= env :about,   'Example Tagline That is Longer.' %>
+title: <%= env :title,     'Obtvse2 Demo Blog on Stackato' %>
+domain: <%= env :domain,   'http://www.activestate.com/stackato' %>
+name:    <%= env :name,    'ActiveState Stackato' %>
+twitter: <%= env :twitter, 'ActiveState' %>
+github:  <%= env :github,  'ActiveState' %>
+email:   <%= env :email,   'stackato@example.com'  %>
+about:   <%= env :about,   'The Platform for the Agile Enterprise' %>
 
 # Google Analytics
 ga_id:   <%= env :ga,      ''  %>

@@ -3,11 +3,15 @@ Obtvse 2
 
 A clean and simple markdown blogging platform on Rails.
 
-**[Demo](http://obtvse2.herokuapp.com) | [Demo Admin](http://obtvse2.herokuapp.com/admin)**
 
-Username: username@example.com
+Stackato
+=======
 
-Password: password
+To deploy to Stackato
+
+    stackato push -n
+
+Then navigate to obtvse2.stackato-xxxx.local/admin and create an admin user
 
 
 Whats New
@@ -65,7 +69,3 @@ Start the local server:
     bundle exec rails s
 
 Go to [0.0.0.0:3000](http://0.0.0.0:3000/), to administrate you go to [/admin](http://0.0.0.0:3000/admin)
-
-Installing on Heroku?  You may need to run the following after you've updated to the latest Rails 4 version.
-
-    heroku config:set PATH=bin:vendor/bundle/ruby/2.0.0/bin:/usr/local/bin:/usr/bin:/bin

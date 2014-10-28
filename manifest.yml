@@ -1,0 +1,9 @@
+applications:
+- name: obtvse2
+  services:
+    ${name}-db:
+      type: postgresql
+  stackato:
+    hooks:
+      post-staging:
+      - bundle exec rake db:migrate
