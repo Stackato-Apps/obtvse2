@@ -1,5 +1,6 @@
 applications:
 - name: obtvse2
+  memory: 384M
   services:
     ${name}-db:
       type: postgresql
