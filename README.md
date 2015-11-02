@@ -4,10 +4,10 @@ Obtvse 2
 A clean and simple markdown blogging platform on Rails.
 
 
-Stackato
-=======
+HPE Helion Stackato
+===================
 
-To deploy to Stackato
+To deploy to HPE Helion Stackato
 
     stackato push -n
 
